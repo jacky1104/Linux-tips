@@ -33,3 +33,25 @@
 ### shutdown
 - **shutdown -h now**, power off.
 - **shutdown -r**, reboot.
+
+
+### top
+
+- **shift + m**, sort pid by memory
+- **shift + p**, sort pid by cpu
+- **1**, show cores of cpu
+
+About cpu info, us means user, sy means system, wa means wating for io, hi means hardware interrupt, si means software interrupe.
+If us too high, maybe it caused by many computation, hi too high maybe caused by too many network connection etc.
+
+
+### stat
+
+- **pidstat**
+- **iostat**
+- **vmstat**
+
+
+
+
+
