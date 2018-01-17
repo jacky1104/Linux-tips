@@ -28,6 +28,11 @@
 - ifconfig, "yum install net-tools"
 - netstat
 - iptables
+- tcpdump, tcpdump -iany port 5432 -Xnlps0
+  -X show the content of package, s0 show the complete content
+  -n Don't convert host addresses to names.
+  -l Make stdout line buffered.  Useful if you want to see the data while capturing it.
+  -p Don’t  put  the  interface into promiscuous mode.
 
 
 ### shutdown
